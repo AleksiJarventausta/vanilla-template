@@ -1,2 +1,3 @@
 # vanilla-template
-Created with CodeSandbox
+
+This is a template for weekly assignments.

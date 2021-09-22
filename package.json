@@ -7,13 +7,20 @@
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
-  "dependencies": { "parcel-bundler": "^1.6.1" },
+  "dependencies": {
+    "@babel/runtime-corejs2": "^7.15.4",
+    "parcel-bundler": "^1.6.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.15.5",
-    "@babel/plugin-transform-runtime": "^7.15.0"
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "babel-preset-env": "^1.7.0"
   },
   "resolutions": {
     "@babel/preset-env": "7.13.8"
   },
-  "keywords": ["javascript", "starter"]
+  "keywords": [
+    "javascript",
+    "starter"
+  ]
 }
