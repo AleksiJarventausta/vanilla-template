@@ -19,7 +19,7 @@ wiki_item.classList.add("wiki-item");
 document.body.appendChild(wiki_item);
 let wiki_header = document.createElement("h1");
 wiki_header.classList.add("wiki-header");
-wiki_header.innerHTML = "Breed X";
+wiki_header.innerHTML = "Breed XXXX";
 wiki_item.appendChild(wiki_header);
 let wiki_content = document.createElement("div");
 wiki_content.classList.add("wiki-content");
